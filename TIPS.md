@@ -19,3 +19,7 @@
 ## 5. Throw away local changes to a file
 
 `git restore path/to/file` discards uncommitted edits to that file.
+
+## 6. Find the commit that broke something
+
+`git bisect start`, then mark commits `good`/`bad`, and Git binary-searches for the first bad one.
