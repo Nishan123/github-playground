@@ -27,3 +27,7 @@
 ## 7. Credit pair programmers in commits
 
 Add `Co-authored-by: Name <email>` as the last line of a commit message to credit everyone who worked on it.
+
+## 8. Open a PR straight from the terminal
+
+`gh pr create --fill` opens a pull request using your commit message as the title and body.
