@@ -15,3 +15,7 @@
 ## 4. See the whole history as a graph
 
 `git log --oneline --graph --all` draws every branch and merge in the terminal.
+
+## 5. Throw away local changes to a file
+
+`git restore path/to/file` discards uncommitted edits to that file.
