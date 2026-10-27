@@ -23,3 +23,7 @@
 ## 6. Find the commit that broke something
 
 `git bisect start`, then mark commits `good`/`bad`, and Git binary-searches for the first bad one.
+
+## 7. Credit pair programmers in commits
+
+Add `Co-authored-by: Name <email>` as the last line of a commit message to credit everyone who worked on it.
