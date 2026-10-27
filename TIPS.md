@@ -11,3 +11,7 @@
 ## 3. Park unfinished work with stash
 
 `git stash` sets aside uncommitted changes; `git stash pop` brings them back.
+
+## 4. See the whole history as a graph
+
+`git log --oneline --graph --all` draws every branch and merge in the terminal.
