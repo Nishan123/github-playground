@@ -35,3 +35,7 @@ Add `Co-authored-by: Name <email>` as the last line of a commit message to credi
 ## 9. Edit a repo in the browser
 
 Press `.` on any GitHub repo page to open it in the github.dev editor.
+
+## 10. Recover commits you thought were lost
+
+`git reflog` lists everywhere HEAD has been, so you can get back to commits after a bad reset or rebase.
